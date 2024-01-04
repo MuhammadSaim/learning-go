@@ -30,8 +30,8 @@ func main(){
 
 
 	// print the earning before tax
-	fmt.Println("Earning before tax: ", earningBeforeTax)
-	fmt.Println("Profit: ", profit)
-	fmt.Println("Ratio: ", ratio)
+	fmt.Printf("Earning before tax: %.2f\n", earningBeforeTax)
+	fmt.Printf("Profit: %.2f\n", profit)
+	fmt.Printf("Ratio: %.2f\n", ratio)
 
 }
